@@ -1,0 +1,32 @@
+{
+    "highlight-bad-chars.additionalUnicodeChars": [
+        "\uFF0C",
+        "\uFF08",
+        "\uFF09",
+        "\uFF1A",
+        "\uFF1B",
+        "\u201C",
+        "\u201D",
+        "\u2018",
+        "\u2019"
+    ],
+    "highlight-bad-chars.badCharDecorationStyle": {
+        "cursor": "crosshair",
+        "backgroundColor": "rgba(30,79,62,0.6)",
+        "borderWidth": "1px",
+        "borderStyle": "solid",
+        "borderColor": "rgba(30,79,62,0.8)"
+    },
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./unittest",
+        "-p",
+        "*_test.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "pylint.args": [
+        "--disable=C0111", "--disable=C0115", "--disable=C0116", "--max-line-length=128", "--good-names=e,i,j,k,m,n,x,y,t,ex,id,f,fn"
+    ]
+}
