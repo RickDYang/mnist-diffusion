@@ -9,7 +9,7 @@ def train():
     # The batch size of data in training
     batch_size = 256
     # The traning epochs, for my tesing, 100 is a good epochs
-    epochs = 2
+    epochs = 100
     # user all train data to train, and validate on validate data
     train_loader, _, val_loader = load_data(batch_size, ratio=1)
     # Init and create the model
