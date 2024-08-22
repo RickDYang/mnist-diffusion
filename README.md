@@ -34,7 +34,7 @@ Firstly, I would like to recommend to read the following articles to understand 
 pip install -r requirements.txt
 ```
 
-# How to run the code
+# How to run
 The code is running in 4 modes: train, infer, upload and from_pretrain. Use the following command to run:
 ```shell
 python main.py [train, infer, upload, from_pretrain]
@@ -58,4 +58,5 @@ HUGGINGFACE_TOKEN=write_token_to_upload
 - from_pretrain
 
     You can use from_pretrain to download the model from huggingface hub and make inference
+
     My trained models is in [Here](https://huggingface.co/RickDYang/ai-mini/blob/main/mnist_diffusion)

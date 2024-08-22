@@ -38,7 +38,7 @@ class Denoiser(nn.Module):
 
     def __init__(
         self,
-        n_classs: int,
+        n_class: int,
         image_channels: int,
         embedding_layers: Tuple[int],
         hidden_channles: Tuple[int],  # (128, 256, 512)
@@ -73,7 +73,7 @@ class Denoiser(nn.Module):
             self.time_embedding.append(nn.ReLU())
 
         self.promotes_embedding = nn.Sequential(
-            nn.Embedding(n_classs, embedding_layers[0])
+            nn.Embedding(n_class, embedding_layers[0])
         )
         for i in range(1, len(embedding_layers)):
             self.promotes_embedding.append(
